@@ -1,0 +1,120 @@
+.about-me-container {
+    background-color: #ffffff;
+    text-align: center;
+    /* padding: 50px 0;
+    padding-bottom: 0; */
+    padding: 30px 20px;
+    padding-bottom: 20px;
+    /* border: solid; */
+    margin-top: -1px;
+  }
+  
+  .about-me-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-me-text {
+    flex: 1;
+    padding: 0 20px;
+    text-align: justify;
+    
+  }
+  
+  .about-me-image{
+    padding: 0;
+  }
+  .about-me-image img {
+    max-width: auto;
+    height: 350px;
+    /* border-radius: 50%; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    
+  }
+  
+  .about-me-heading {
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid rgb(206, 119, 38);
+    border-width: 4px;
+    border-radius: 12px;
+    font-family: cursive;
+  }
+  
+  .about-me-heading::after {
+    content: "?";
+    position: absolute;
+    top: 0;
+    right: -30px;
+    font-size: 36px;
+    color: #ff7f50; /* Change to your desired color */
+    transition: transform 0.3s ease;
+  }
+  
+  .about-me-heading:hover::after {
+    transform: rotate(360deg);
+  }
+  
+  .about-me-text ul {
+    list-style-type: none ;
+    color: #ff7f50;
+    padding: 0;
+
+  }
+  
+  .about-me-text li {
+    margin-bottom: 10px;
+    color: rgb(41, 38, 38);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .about-me-text ul li:hover {
+    color: #ff7f50; /* Change to your desired hover color */
+  }
+
+ 
+.bttn{
+  width: 120px;
+}
+
+
+
+
+
+
+
+ /* Define media queries for different screen sizes */
+@media only screen and (max-width: 1200px) {
+  .about-me-content {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .about-me-text {
+    padding: 0 10px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-me-image {
+    padding-left: 0; /* Remove left padding for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .about-me-heading {
+    font-size: 24px; /* Decrease font size for smaller screens */
+  }
+  
+  .about-me-image img {
+    height: 250px; /* Decrease image height for smaller screens */
+  }
+
+}
+
+  

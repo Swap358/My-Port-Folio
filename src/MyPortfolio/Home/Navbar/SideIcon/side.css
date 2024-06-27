@@ -1,0 +1,49 @@
+.sidebar {
+    position: fixed;
+    top: 80%;
+    left: 1%;
+
+    transform: translateY(-80%);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.icon {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.icon:hover {
+    background-color: #555;
+    
+}
+
+.icon i {
+    font-size: 25px;
+}
+
+.whatsapp {
+    background-color: #1fe668;
+    
+}
+
+.whatsapp:hover {
+    background-color: #a8fcf59c;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.facebook:hover {
+    background-color: #2d4373;
+}

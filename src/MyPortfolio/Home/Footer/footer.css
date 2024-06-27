@@ -1,0 +1,40 @@
+.footer-container{
+    height: 17.8%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background: #03000075;
+    padding-top: 0;
+    /* margin-bottom: 0px; */
+    padding-bottom: none;
+}
+
+.footer-parent{
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+
+}
+.footer-parent img{
+    max-width: 100%;
+    height: 130px;
+
+}
+
+@media  only screen and (max-width: 1110px) {
+    .footer-parent{
+        display: flex;
+        align-items: flex-end;
+        
+    }
+}
+@media  only screen and (max-width: 494px) {
+    .footer-parent{
+        display: flex;
+        align-items: flex-end;
+        height: auto;
+        width: 100%s;
+        
+    }
+}

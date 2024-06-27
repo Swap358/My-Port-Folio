@@ -1,0 +1,147 @@
+.project-sec{
+
+    background-color: white;
+    width: auto;
+    text-align: center;
+    padding: 5rem 5%;
+    display: grid;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0px;
+}
+span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    
+}
+.project-sec h2{
+    text-align: center;
+    font-size: medium;
+   
+}
+.project-sec .div-img{
+    
+    display: flex;
+    width: auto;
+   
+
+}
+
+.div-img img{
+    height: 350px;
+    width: auto;
+    border-radius: 50px;
+    box-shadow: 1px 1px orangered;
+    
+}
+
+.project-sec .deatils{
+    width: auto;
+    display:block;
+    align-content: center;
+    gap: 3rem;align-items: center;
+
+  
+}
+.exp{
+    display:flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+ .exp1{
+   padding-top: 7px; 
+    background: rgb(252, 251, 251);
+    border: 0.1rem solid hsl(0, 0%, 64%);
+    border-width: 2px;
+    border-radius: 2rem;    
+     /* padding: 10px; */
+    /* text-align: center; */
+    width: 22rem;
+    height: 140px;
+    /* margin: 5px; */
+    text-align: center;
+   
+}
+
+.exp1 p{
+    font-size: 14px;
+}
+.exp1:hover{
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 1010px) {
+    .project-sec {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 0 5%;
+        
+    }
+    .exp{
+        display:grid;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    .exp1 {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .div-img{
+        padding-bottom: 5%;
+    }
+    .div-img img {
+        height: auto;
+        max-width: 60%;
+        margin-left: 20%;
+    }
+
+     .exp{
+        display:grid;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    .exp1 {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 834px) {
+    
+    
+     .exp{
+        display:grid;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+
+    }
+    .exp1 {
+        width: 90%;
+        height: 110px;
+    }
+    .exp1 h5{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .project-sec {
+        padding: 0 2%;
+    }
+    .exp1 {
+        width: 100%;
+    }
+}

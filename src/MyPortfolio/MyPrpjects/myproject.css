@@ -1,0 +1,82 @@
+.myproject-sec {
+    background-color: #fff;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.project-card {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    padding: 20px 0;
+    margin: 20px auto;
+}
+
+.proj-body {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    margin: auto;
+}
+
+.project-img {
+    border-radius: 2rem;
+    height: 20rem;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.project-title {
+    color: rgb(0, 0, 0);
+    margin: 1rem 0;
+}
+
+.experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.btn-container .project-btn {
+    background-color: rgba(1, 54, 104, 0.979);
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 120px;
+    color: #efff;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.project-details {
+    text-align: justify;
+    font-weight: 300;
+    padding-top: 10px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 576px) {
+    
+    .row {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .left-pro-1 {
+        flex: 1;
+        max-width: 45%;
+    }
+}

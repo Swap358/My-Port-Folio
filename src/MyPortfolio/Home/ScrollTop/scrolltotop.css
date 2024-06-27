@@ -1,0 +1,31 @@
+.top-btn-position{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    /* height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    padding: 5px;
+
+    background-color: rgba(199, 173, 173, 0.925); */
+}
+h2{
+    color: #fff;
+}
+.top-btn-style
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+   
+    background-color: #d1d0c8;
+    color: #1b1b1989;
+    cursor: pointer;
+}
+.top-btn-style:hover{
+    height:45px;
+    width:45px ;
+    border-radius: 50%;
+    transition: all 0.1s ease ;
+    box-shadow: 1px 4px 0px 1px rgb(190, 178, 178);
+}
